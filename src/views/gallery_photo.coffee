@@ -19,7 +19,7 @@ class Chromatic.GalleryPhotoView
     image.src = @photo.small
 
   unload: =>
-    @el.css('backgroundImage', "")
+    #@el.css('backgroundImage', "")
     @loaded = false
 
   zoom: =>
